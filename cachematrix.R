@@ -1,6 +1,6 @@
 ## cache the input matrix and its inverse
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix  <- function(x = matrix()) {
 m <- NULL # sets the value of m to NULL (provides a default if cacheSolve has not yet been used)
 y <- NULL # sets the value of y to NULL (provides a default if cacheSolve has not yet been used)
 setmatrix <- function(y) { #set the value of the matrix
